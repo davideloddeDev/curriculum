@@ -1,3 +1,5 @@
+import './css/logo.css'
+
 export function Logo() {
     const styleCollegamento = {
         

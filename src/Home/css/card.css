@@ -1,0 +1,37 @@
+.cards {
+    width: 99vw !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card-title {
+    margin-top: 20px !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.cardSx {
+    margin-left: 0.5vw !important;
+    margin-right: 1vw !important;
+}
+
+.cardCenter {
+    margin-left: 1vw !important;
+    margin-right: 1vw !important;
+}
+
+.cardDx {
+    margin-left: 1vw !important;
+    margin-right: 0.5vw !important;
+}
+
+.cards img {
+    height: 100px;
+}
+
+.btn {
+    margin-top: 20px;
+}

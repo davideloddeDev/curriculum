@@ -1,4 +1,5 @@
 import { Logo } from "./Logo"
+import './css/headerHome.css'
 
 export function HeaderHome() {
     const headerStyle = {
