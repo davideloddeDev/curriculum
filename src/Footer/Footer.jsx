@@ -1,15 +1,15 @@
 import { AFooter } from "./AFooter";
-import "./css/footer.css";
+import "./footer.css";
 
-export function FooterHome() {
+export function Footer() {
   return (
     <div className="mainFooter">
       <div className="footerSx">
         <AFooter href="/contatti" testo="Contatti" />
-        <AFooter href="/miei-lavori" testo="I Miei Lavori" />
-        <AFooter href="/miei-corsi" testo="I Miei Corsi" />
-        <AFooter href="/dati-anagrafici" testo="Dati Anagrafici" />
-        <AFooter href="/miei-studi" testo="I Miei Studi" />
+        <AFooter href="/lavori" testo="I Miei Lavori" />
+        <AFooter href="/studi" testo="I Miei Corsi" />
+        <AFooter href="/anagrafici" testo="Dati Anagrafici" />
+        <AFooter href="/studi" testo="I Miei Studi" />
       </div>
       <div className="footerDx">
         <p>

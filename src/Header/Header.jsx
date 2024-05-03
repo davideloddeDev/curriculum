@@ -3,12 +3,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from 'react-bootstrap/Button';
-import "./css/headerHome.css";
+import "./header.css";
 
-
-export function HeaderHome() {
-  return (
-    <>
+export function Header() {
+    return (
+        <>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
@@ -29,5 +28,5 @@ export function HeaderHome() {
       </Navbar>
       
     </>
-  );
+    )
 }

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import './css/footer.css'
+import './footer.css'
 
 export function AFooter({href, testo}) {
 
