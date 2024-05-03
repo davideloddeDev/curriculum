@@ -10,14 +10,14 @@ export function Header() {
         <>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
+          <Navbar.Brand href="/home"><Logo /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#link">Dati Anagrafici</Nav.Link>
-              <Nav.Link href="#link">I Miei Studi</Nav.Link>
-              <Nav.Link href="#link">I Miei Lavori</Nav.Link>
-              <Nav.Link href="#link">Contatti</Nav.Link>
+              <Nav.Link href="/anagrafici">Dati Anagrafici</Nav.Link>
+              <Nav.Link href="/studi">I Miei Studi</Nav.Link>
+              <Nav.Link href="/lavori">I Miei Lavori</Nav.Link>
+              <Nav.Link href="/contatti">Contatti</Nav.Link>
               
             </Nav>
             

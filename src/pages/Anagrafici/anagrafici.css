@@ -1,0 +1,45 @@
+.mainAnagrafici {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.heroAnagrafici {
+    height: 500px;
+}
+
+.heroAnagrafici img {
+    height: 100%;
+    width: 100%;
+}
+
+.dataAnagrafici {
+    height: 500px;
+    display: flex;
+}
+
+.dataAnagrafici img {
+    height: 100%;
+}
+
+.dataAnagraficiSx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataAnagraficiDx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataAnagraficiDx p {
+    margin: 0 20px !important;
+}

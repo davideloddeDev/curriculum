@@ -14,6 +14,7 @@ export function Href(){
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/anagrafici" element={<Anagrafici />} />
                 <Route path="/studi" element={<Studi />} />
                 <Route path="/lavori" element={<Lavori />} />

@@ -1,0 +1,45 @@
+.mainStudi {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.heroStudi {
+    height: 500px;
+}
+
+.heroStudi img {
+    height: 100%;
+    width: 100%;
+}
+
+.dataStudi {
+    height: 500px;
+    display: flex;
+}
+
+.dataStudi img {
+    height: 100%;
+}
+
+.dataStudiSx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataStudiDx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataStudiDx p {
+    margin: 0 20px !important;
+}

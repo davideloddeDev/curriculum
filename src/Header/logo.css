@@ -1,0 +1,20 @@
+.styleCollegamento {
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleH2 {
+    margin: 0 5px;
+    padding: 0;
+    font-size: 25px;
+}
+
+.styleP {
+    margin: 0 5px;
+    padding: 0;
+    font-weight: bold;
+}
