@@ -6,6 +6,7 @@
 
 .heroStudi {
     height: 500px;
+    margin-bottom: 40px;
 }
 
 .heroStudi img {
@@ -16,6 +17,7 @@
 .dataStudi {
     height: 500px;
     display: flex;
+    margin-top: 10px;
 }
 
 .dataStudi img {
@@ -42,4 +44,12 @@
 
 .dataStudiDx p {
     margin: 0 20px !important;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+
+.dataStudiSx p {
+    margin: 0 20px !important;
+    text-align: left;
+    margin-bottom: 20px !important;
 }

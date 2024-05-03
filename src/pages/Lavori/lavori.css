@@ -1,0 +1,55 @@
+.mainLavori {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.heroLavori {
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.heroLavori img {
+    height: 100%;
+    width: 100%;
+}
+
+.dataLavori {
+    height: 500px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.dataLavori img {
+    height: 100%;
+}
+
+.dataLavoriSx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataLavoriDx {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dataLavoriDx p {
+    margin: 0 20px !important;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+
+.dataLavoriSx p {
+    margin: 0 20px !important;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
