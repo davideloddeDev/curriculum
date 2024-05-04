@@ -18,7 +18,7 @@ export function Home() {
             title="Web"
             description1="In questa sezione potrai scoprire le mie competenze come"
             description2="Junior FullStack Web Developer"
-            href="#"
+            href="/lavori"
           />
           <Cards
             classe="cardCenter"
@@ -27,7 +27,7 @@ export function Home() {
             title="Android"
             description1="In questa sezione potrai scoprire le mie competenze come"
             description2="Senior Android Developer"
-            href="#"
+            href="/lavori"
           />
           <Cards
             classe="cardDx"
@@ -36,7 +36,7 @@ export function Home() {
             title="iOS"
             description1="In questa sezione potrai scoprire le mie competenze come"
             description2="Junior iOS Developer"
-            href="#"
+            href="/lavori"
           />
         </div>
       </div>

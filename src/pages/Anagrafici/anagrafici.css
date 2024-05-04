@@ -23,7 +23,6 @@
 }
 
 .dataAnagraficiSx {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +31,6 @@
 }
 
 .dataAnagraficiDx {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,4 +40,35 @@
 
 .dataAnagraficiDx p {
     margin: 0 20px !important;
+}
+
+@media screen and (max-width: 1579px) {
+    .dataAnagrafici {
+        flex-direction: column;
+    }
+
+    .dataAnagraficiSx {
+        width: 100%;
+    }
+
+    .dataAnagraficiDx {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1580px) {
+    .dataAnagrafici {
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .dataAnagraficiSx {
+        width: 50%;
+    }
+
+    .dataAnagraficiDx {
+        width: 50%;
+    }
+
 }
