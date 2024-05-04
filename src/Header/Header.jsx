@@ -22,7 +22,7 @@ export function Header() {
             </Nav>
             
           </Navbar.Collapse>
-          <Button variant="primary">Primary</Button>
+          {/* <Button variant="primary">Primary</Button> */}
         </Container>
         
       </Navbar>

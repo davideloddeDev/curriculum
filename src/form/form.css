@@ -1,0 +1,33 @@
+.formContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+}
+.formContact div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.formContact input {
+    width: 20vw;
+
+}
+
+.divCompany input {
+    margin-left: 4vw;
+}
+
+.divEmail input {
+    margin-left: 4.1vw;
+}
+
+.divPhone input {
+    margin-left: 2.1vw;
+}
+
+.formContact button {
+    margin: 10px 0 20px 0;
+    background-color: #000;
+    color: #fff;
+}
