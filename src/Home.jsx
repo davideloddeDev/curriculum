@@ -1,18 +1,21 @@
+import {HeroHome} from "./Home/hero.jsx";
+import {SkillsHome} from "./Home/Skills.jsx";
+
 export function Home() {
 
-    const mainStyle = {
-        height: "80vh",
+    const style = {
+        height: "700px",
         width: "100vw",
         backgroundColor: "#fff",
-        display: "flex",
-        flexOrientation: "column",
-        justifyContent: "center",
-        alignItems: "center"
     }
 
+
     return(
-        <div style={mainStyle}>
-            <h1>Home</h1>
+
+
+        <div style={style}>
+            <HeroHome />
+            <SkillsHome />
         </div>
     )
 }

@@ -1,5 +1,5 @@
-import { Logo } from "./Home/Logo.jsx"
-import {Menu} from "./Home/Menu.jsx";
+import { Logo } from "./Logo.jsx"
+import {Menu} from "./Menu.jsx";
 
 export function HeaderPages() {
     const headerStyle = {
