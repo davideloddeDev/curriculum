@@ -1,4 +1,4 @@
-export function FooterHome() {
+export function FooterPages() {
     const footerStyle = {
         height: "200px",
         width: "100vw",
@@ -7,7 +7,7 @@ export function FooterHome() {
     }
     return(
         <div style={footerStyle}>
-
+            <p>Footer</p>
         </div>
     )
 }

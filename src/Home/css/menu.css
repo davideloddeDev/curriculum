@@ -1,0 +1,16 @@
+.menu {
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu a:hover {
+    color: #b8bcec;
+}

@@ -1,19 +1,18 @@
-import { HeaderHome } from './Home/HeaderHome.jsx'
-import { MainHome } from './Home/MainHome.jsx'
-import { FooterHome } from './Home/FooterHome.jsx'
 export function Home() {
-    const style = {
+
+    const mainStyle = {
+        height: "80vh",
         width: "100vw",
-        height: "100vh",
+        backgroundColor: "#fff",
         display: "flex",
-        flexDirection: "column"
+        flexOrientation: "column",
+        justifyContent: "center",
+        alignItems: "center"
     }
 
     return(
-        <div style={style}>
-            <HeaderHome />
-            <MainHome />
-            <FooterHome />
+        <div style={mainStyle}>
+            <h1>Home</h1>
         </div>
     )
 }
