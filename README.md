@@ -1,8 +1,22 @@
-# React + Vite
+# Curriculum Vitae
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo repository contiene il codice sorgente per la mia applicazione web "Curriculum Vitae". L'applicazione è stata sviluppata utilizzando React e Vite, e permette di visualizzare e gestire il mio curriculum vitae in formato digitale.
 
-Currently, two official plugins are available:
+## Funzionalità
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualizzazione delle informazioni personali, dell'esperienza lavorativa, dell'istruzione e delle competenze
+- Possibilità di aggiungere, modificare ed eliminare voci del curriculum
+- Esportazione del curriculum in formato PDF
+- Responsive design per una visualizzazione ottimale su dispositivi mobili
+
+## Tecnologie utilizzate
+
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+
+## Licenza
+
+Questo progetto è rilasciato sotto la licenza [MIT](https://opensource.org/licenses/MIT).
