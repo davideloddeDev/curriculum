@@ -4,7 +4,7 @@ import {SkillsHome} from "./Home/Skills.jsx";
 export function Home() {
 
     const style = {
-        height: "700px",
+        height: "1200px",
         width: "100vw",
         backgroundColor: "#fff",
     }

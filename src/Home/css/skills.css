@@ -1,3 +1,16 @@
 h1 {
     color: #000;
+
+}
+
+.skillsHome {
+    margin-top: 50px;
+}
+
+.containerCard {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
