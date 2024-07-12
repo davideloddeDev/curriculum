@@ -1,3 +1,5 @@
+import './Studi/css/studi.css'
+
 export function Studi() {
     return (
         <div>

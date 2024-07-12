@@ -1,3 +1,5 @@
+import './Contatti/css/contatti.css'
+
 export function Contatti() {
     return (
         <div>

@@ -1,3 +1,5 @@
+import './Lavori/css/lavori.css'
+
 export function Lavori() {
     return(
         <div>

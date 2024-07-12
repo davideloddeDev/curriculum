@@ -1,3 +1,5 @@
+import './Anagrafica/css/anagrafica.css'
+
 export function Anagrafica() {
     return(
         <div>
