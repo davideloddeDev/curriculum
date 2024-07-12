@@ -7,14 +7,17 @@ export function HeaderPages() {
         width: "100vw",
         backgroundColor: "#212529",
         display: "flex",
-        flexOrientation: "row"
+        flexOrientation: "row",
+        position: "fixed",
+        top: "0",
+        zIndex: "100"
 
     }
     return(
-        <div style={headerStyle}>
+        <header style={headerStyle}>
             <Logo />
             <Menu />
-        </div>
+        </header>
         
     )
 }

@@ -7,6 +7,7 @@ export function Home() {
         height: "1200px",
         width: "100vw",
         backgroundColor: "#fff",
+        marginTop: "90px",
     }
 
 
