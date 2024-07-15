@@ -1,0 +1,37 @@
+.itContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itImage {
+    width: 800px;
+}
+
+.itImage img {
+    width: 100%;
+}
+
+.itText {
+    width: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.itText ul {
+    text-align: left;
+}
+
+.itText button {
+    background-color: #535bf2;
+}
+
+.itText button a {
+    color: #fff;
+}
+
+.itText button:hover {
+    background-color: #4046c6;
+
+}
