@@ -1,0 +1,37 @@
+.webdesignContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webdesignImage {
+    width: 800px;
+}
+
+.webdesignImage img {
+    width: 100%;
+}
+
+.webdesignText {
+    width: 900px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.webdesignText ul {
+    text-align: left;
+}
+
+.webdesignText button {
+    background-color: #535bf2;
+}
+
+.webdesignText button a {
+    color: #fff;
+}
+
+.webdesignText button:hover {
+    background-color: #4046c6;
+
+}
