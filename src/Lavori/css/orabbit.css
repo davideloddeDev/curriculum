@@ -1,6 +1,7 @@
 .orabbitContainer {
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -9,15 +10,17 @@
     width: 800px;
 }
 
-.orabbitImage img {
-    width: 100%;
-}
-
 .orabbitText {
     width: 900px;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.orabbitImage img {
+    width: 100%;
+}
+
+
 
 .orabbitText ul {
     text-align: left;
@@ -34,4 +37,30 @@
 .orabbitText button:hover {
     background-color: #4046c6;
 
+}
+
+@media  screen and (max-width: 1100px) {
+    .orabbitContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .orabbitImage {
+        width: 50%;
+    }
+
+    .orabbitText {
+        width: 75%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .orabbitText p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.carousel-indicators {
+    display: none !important;
 }

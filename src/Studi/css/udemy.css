@@ -1,6 +1,7 @@
 .udemyContainer {
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -9,15 +10,17 @@
     width: 800px;
 }
 
-.udemyImage img {
-    width: 100%;
-}
-
 .udemyText {
     width: 900px;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.udemyImage img {
+    width: 100%;
+}
+
+
 
 .udemyText ul {
     text-align: left;
@@ -34,4 +37,30 @@
 .udemyText button:hover {
     background-color: #4046c6;
 
+}
+
+@media  screen and (max-width: 1100px) {
+    .udemyContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .udemyImage {
+        width: 50%;
+    }
+
+    .udemyText {
+        width: 75%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .udemyText p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.carousel-indicators {
+    display: none !important;
 }

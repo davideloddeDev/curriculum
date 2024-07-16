@@ -1,6 +1,7 @@
 .webdesignContainer {
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -9,15 +10,17 @@
     width: 800px;
 }
 
-.webdesignImage img {
-    width: 100%;
-}
-
 .webdesignText {
     width: 900px;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.webdesignImage img {
+    width: 100%;
+}
+
+
 
 .webdesignText ul {
     text-align: left;
@@ -34,4 +37,30 @@
 .webdesignText button:hover {
     background-color: #4046c6;
 
+}
+
+@media  screen and (max-width: 1100px) {
+    .webdesignContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .webdesignImage {
+        width: 50%;
+    }
+
+    .webdesignText {
+        width: 75%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .webdesignText p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.carousel-indicators {
+    display: none !important;
 }

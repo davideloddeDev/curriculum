@@ -1,6 +1,7 @@
 .diplomaContainer {
     width: 100vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -9,15 +10,17 @@
     width: 800px;
 }
 
-.diplomaImage img {
-    width: 100%;
-}
-
 .diplomaText {
     width: 900px;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.diplomaImage img {
+    width: 100%;
+}
+
+
 
 .diplomaText ul {
     text-align: left;
@@ -31,7 +34,33 @@
     color: #fff;
 }
 
-.develhopeText button:hover {
+.diplomaText button:hover {
     background-color: #4046c6;
 
+}
+
+@media  screen and (max-width: 1100px) {
+    .diplomaContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .diplomaImage {
+        width: 50%;
+    }
+
+    .diplomaText {
+        width: 75%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .diplomaText p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.carousel-indicators {
+    display: none !important;
 }
