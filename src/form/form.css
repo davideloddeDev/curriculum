@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30vw;
 }
 .formContact div {
     margin-top: 10px;
@@ -15,7 +14,7 @@
 }
 
 .divCompany input {
-    margin-left: 4vw;
+    margin-left: 4.1vw;
 }
 
 .divEmail input {
@@ -23,7 +22,7 @@
 }
 
 .divPhone input {
-    margin-left: 2.1vw;
+    margin-left: 1.1vw;
 }
 
 .formContact button {

@@ -1,7 +1,23 @@
+.mainContatti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
 .dataContatti {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.heroContatti {
+    width: 100vw;
+}
+
+.heroContatti img {
     width: 100vw;
 }
