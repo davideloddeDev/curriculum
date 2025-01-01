@@ -1,21 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import './css/card.css'
 
 export function CardHome({imageSrc, titleText, descriptionText, link}) {
-
-
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={imageSrc}/>
-            <Card.Body>
-                <Card.Title>{titleText}</Card.Title>
-                <Card.Text>
-                    {descriptionText}
-                </Card.Text>
-                <Button variant="primary">Scopri di più</Button>
-            </Card.Body>
-        </Card>
+        <div className="card">
+            <img className="card-image" src={imageSrc} alt={titleText} />
+            <div className="card-body">
+                <h2 className="card-title">{titleText}</h2>
+                <p className="card-text">{descriptionText}</p>
+                <button className="card-button" onClick={() => window.location.href = link}>
+                    Scopri di più
+                </button>
+            </div>
+        </div>
     )
-
 }

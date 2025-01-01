@@ -1,0 +1,37 @@
+
+.carosello {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carosello-content {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.carosello-button {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.carosello-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
