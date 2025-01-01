@@ -1,0 +1,62 @@
+/* Stili per il menu principale */
+.menu {
+    width: 100%;
+    background-color: #222;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi */
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  /* Stili per i link del menu */
+  .menu-links {
+    display: flex;
+    gap: 40px;
+    justify-content: center; /* Centra i link orizzontalmente */
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none; /* Rimuove la sottolineatura */
+    font-size: 1.1rem; /* Dimensione del testo leggermente più grande */
+    transition: color 0.3s ease; /* Transizione fluida per il colore */
+  }
+  
+  .menu a:hover {
+    color: #b8bcec;
+  }
+  
+  /* Stili per l'hamburger menu */
+  .hamburger {
+    display: none; /* Nascosto di default */
+    background: none; /* Rimuove lo sfondo del pulsante */
+    border: none; /* Rimuove il bordo del pulsante */
+    padding: 10px; /* Spaziatura interna */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    font-size: 1.5rem; /* Dimensione dell'icona */
+    color: white;
+  }
+  
+  /* Mostra l'hamburger menu su schermi più piccoli */
+  @media (max-width: 1000px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .menu-links {
+      display: none; /* Nasconde i link di default */
+    }
+  
+    /* Mostra i link quando l'hamburger menu è attivo */
+    .menu.open .menu-links {
+      display: flex;
+      flex-direction: column; /* Disposizione verticale */
+      position: absolute;
+      top: 70px; /* Posizione rispetto al menu */
+      left: 0;
+      width: 100%;
+      background-color: #222;
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,20 @@
+.lavoriContainer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.carousel-control-next-icon {
+    color: transparent !important;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: black !important;
+}
+
+.carousel-control-prev-icon {
+    color: transparent !important;
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: black !important;
+}

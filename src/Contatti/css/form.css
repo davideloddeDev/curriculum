@@ -1,0 +1,46 @@
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  /* Stile generale del form */
+  .contact-form {
+    max-width: 50vw;
+  
+  }
+  
+  /* Stile delle label */
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Stile degli input */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"] {
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Stile del pulsante di invio */
+  .contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
