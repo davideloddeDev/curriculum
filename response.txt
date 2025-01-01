@@ -1,9 +1,0 @@
-If your web application works as expected when you run it locally using npm run dev, but not when you deploy it on Netlify, it could be due to a few reasons:
-
-Differences between development and production environments: Some features or functions might work fine in the development mode but not in the production mode. This indicates that there might be an issue with your project and not with Netlify. It's recommended to consult the documentation of the tools you're using (like React or Vite) to determine why your project doesn’t work correctly when building for production (source).
-
-Build command: Ensure that your build command is correct. For a React app created with create-react-app, the build command should be npm run build (source).
-Check your package.json file: In some cases, the homepage property in your package.json file can cause issues with the deployment. If you have this property set, try removing it and redeploying your app (source).
-
-Check for build errors: Look at the build logs on Netlify to see if there are any errors during the build process. These errors could be preventing your secondary pages from being built correctly (source).
-If none of these solutions work, it would be helpful to have more information about the specific error you're encountering. You could also check out this support guide on the Netlify forum for more help with debugging deployment issues.
